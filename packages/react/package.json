@@ -1,0 +1,22 @@
+{
+  "name": "@pedrovs3/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.d.mts",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify --clean --sourcemap --legacy-output dist/index.js",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --minify --clean --sourcemap --legacy-output dist/index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@pedrovs3/ts-config": "*",
+    "@pedrovs3/eslint-config": "*",
+    "@pedrovs3/tokens": "*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
