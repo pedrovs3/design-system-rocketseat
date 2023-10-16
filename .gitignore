@@ -6,3 +6,5 @@
 
 /node_modules
 /packages/tokens/node_modules
+*/node_modules
+*/packages/tokens/node_modules
