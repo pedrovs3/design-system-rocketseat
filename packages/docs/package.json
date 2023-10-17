@@ -25,6 +25,9 @@
     "vite": "^4.4.11"
   },
   "dependencies": {
+    "@pedrovs3/react": "*",
+    "@pedrovs3/tokens": "*",
+    "@pedrovs3/eslint-config": "*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "@vitejs/plugin-react": "^4.1.0"

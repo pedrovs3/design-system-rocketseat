@@ -10,6 +10,15 @@ importers:
 
   packages/docs:
     dependencies:
+      '@pedrovs3/eslint-config':
+        specifier: '*'
+        version: link:../eslint-config
+      '@pedrovs3/react':
+        specifier: '*'
+        version: link:../react
+      '@pedrovs3/tokens':
+        specifier: '*'
+        version: link:../tokens
       '@vitejs/plugin-react':
         specifier: ^4.1.0
         version: 4.1.0(vite@4.4.11)

@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@pedrovs3/eslint-config"
+  ]
+}

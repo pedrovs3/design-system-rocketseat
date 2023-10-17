@@ -6,7 +6,7 @@
       "dom",
       "ES2022"
     ],
-    "module": "ESNext",
+    "module": "commonjs",
     "target": "ES2022"
   }
 }

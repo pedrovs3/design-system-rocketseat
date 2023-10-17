@@ -1,5 +1,5 @@
 {
-  "extends": "@pedrovs3/ts-config/base.json",
+  "extends": "@pedrovs3/ts-config/react.json",
   "include": [
     "src/**/*"
   ],
