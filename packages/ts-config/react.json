@@ -2,8 +2,11 @@
   "extends": "./base.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "lib": ["dom", "ES2022"],
+    "lib": [
+      "dom",
+      "ES2022"
+    ],
     "module": "ESNext",
-    "target": "es6"
+    "target": "ES2022"
   }
 }
