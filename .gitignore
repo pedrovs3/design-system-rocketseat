@@ -8,4 +8,6 @@
 /packages/tokens/node_modules
 /packages/eslint-config/node_modules
 /packages/react/node_modules
+/packages/docs/node_modules
+
 
