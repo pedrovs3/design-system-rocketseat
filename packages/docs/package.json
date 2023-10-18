@@ -12,11 +12,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-docs": "^7.5.0",
     "@storybook/addon-essentials": "7.4.6",
     "@storybook/addon-interactions": "7.4.6",
     "@storybook/addon-links": "7.4.6",
     "@storybook/addon-onboarding": "1.0.8",
     "@storybook/blocks": "7.4.6",
+    "@storybook/builder-vite": "^7.5.0",
     "@storybook/react": "7.4.6",
     "@storybook/react-vite": "7.4.6",
     "@storybook/testing-library": "0.2.2",
@@ -25,11 +27,13 @@
     "vite": "^4.4.11"
   },
   "dependencies": {
+    "@pedrovs3/eslint-config": "*",
     "@pedrovs3/react": "*",
     "@pedrovs3/tokens": "*",
-    "@pedrovs3/eslint-config": "*",
+    "@storybook/theming": "^7.4.6",
+    "@vitejs/plugin-react": "^4.1.0",
+    "polished": "^4.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@vitejs/plugin-react": "^4.1.0"
+    "react-dom": "18.2.0"
   }
 }
