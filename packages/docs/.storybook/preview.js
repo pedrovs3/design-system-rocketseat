@@ -1,3 +1,4 @@
+// noinspection ES6UnusedImports
 import {themes} from "@storybook/theming";
 
 /** @type { import('@storybook/react').Preview } */
@@ -13,6 +14,9 @@ const preview = {
     docs: {
       theme: themes.dark,
     },
+    themes: {
+      default: 'dark',
+    }
   },
 };
 

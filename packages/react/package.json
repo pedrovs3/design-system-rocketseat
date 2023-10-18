@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --minify --clean --sourcemap --legacy-output dist/index.js --external react",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --minify --clean --sourcemap --legacy-output dist/index.js --external react --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --minify --clean  --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --minify --clean  --external react --watch",
     "lint": "eslint src/**/*.{ts,tsx} --fix"
   },
   "keywords": [],

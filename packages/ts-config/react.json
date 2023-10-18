@@ -4,9 +4,9 @@
     "jsx": "react-jsx",
     "lib": [
       "dom",
-      "ES2022"
+      "ES2015"
     ],
-    "module": "commonjs",
-    "target": "ES2022"
+    "module": "ESNext",
+    "target": "es6"
   }
 }
