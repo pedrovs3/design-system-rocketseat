@@ -12,7 +12,7 @@ export const AvatarContainer = styled(Avatar.Root, {
   height: '$12',
   borderRadius: '$full',
   backgroundColor: '$gray800',
-  border: '1px solid $gray600',
+  border: '2px solid $gray600',
   color: '$gray100',
   fontFamily: '$default',
   fontSize: '$sm',
@@ -48,6 +48,7 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   color: '$gray800',
 
   svg: {
+    color: '$gray400',
     width: '$5',
     height: '$6',
   },
