@@ -17,6 +17,9 @@ export default {
       control: 'select',
       options: ['sm', 'md'],
     },
+    onClick: {
+      action: 'click',
+    },
   },
   args: {
     children: 'Send',
