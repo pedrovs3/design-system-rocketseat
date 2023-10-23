@@ -31,6 +31,6 @@ export const TextArea = styled('textarea', {
   },
 })
 
-export type TextAreaProps = React.ComponentProps<typeof TextArea>
-
 TextArea.displayName = 'TextArea'
+
+export type TextAreaProps = React.ComponentProps<typeof TextArea>

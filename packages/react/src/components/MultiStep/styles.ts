@@ -33,5 +33,3 @@ export const Step = styled('div', {
     },
   },
 })
-
-MultiStepContainer.displayName = 'MultiStepContainer'

@@ -48,4 +48,3 @@ export const Input = styled('input', {
 })
 
 export type TextInputProps = React.ComponentProps<typeof Input>
-TextInputContainer.displayName = 'TextInput'
