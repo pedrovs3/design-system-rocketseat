@@ -30,6 +30,7 @@
     "@pedrovs3/eslint-config": "*",
     "@pedrovs3/react": "*",
     "@pedrovs3/tokens": "*",
+    "@storybook/addon-a11y": "^7.5.1",
     "@storybook/theming": "^7.4.6",
     "@vitejs/plugin-react": "^4.1.0",
     "phosphor-react": "^1.4.1",
