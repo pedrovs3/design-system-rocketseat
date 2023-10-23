@@ -8,6 +8,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -15,8 +19,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'pnpm'
 
-      - run: pnpm i
+      - run: pnpm ci
 
       - run: pnpm run build
 
