@@ -51,6 +51,7 @@ export const Button = styled('button', {
       },
       outline: {
         border: '2px solid $ignite500',
+        backgroundColor: 'transparent',
         color: '$ignite500',
       },
       ghost: {
