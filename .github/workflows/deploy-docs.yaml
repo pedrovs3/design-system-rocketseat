@@ -21,7 +21,7 @@ jobs:
           node-version: 16
           cache: 'pnpm'
 
-      - run: pnpm i
+      - run: pnpm i --frozen-lockfile
 
       - run: pnpm run turbo:build
 
