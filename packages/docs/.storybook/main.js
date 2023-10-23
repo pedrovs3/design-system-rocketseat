@@ -28,7 +28,11 @@ const config = {
   docs: {
     autodocs: true,
   },
-
+  viteFinal: (config, {configType}) => {
+    if (configType === "PRODUCTION") {
+      config.base = '/design-system-rocketseat'
+    }
+  }
 };
 
 export default config;

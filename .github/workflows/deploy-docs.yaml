@@ -8,25 +8,21 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Setup NodeJs
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: 'pnpm'
+          node-version: 18
+          cache: 'npm'
 
-      - run: pnpm i --frozen-lockfile
+      - run: npm ci
 
-      - run: pnpm run turbo:build
+      - run: npm run turbo:build
 
       - name: Deploy StoryBook
         working-directory: ./packages/docs
-        run: pnpm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
