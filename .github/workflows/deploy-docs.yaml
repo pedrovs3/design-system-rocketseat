@@ -23,7 +23,7 @@ jobs:
 
       - run: pnpm i
 
-      - run: pnpm run build
+      - run: pnpm run turbo:build
 
       - name: Deploy StoryBook
         working-directory: ./packages/docs
