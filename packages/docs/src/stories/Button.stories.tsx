@@ -10,11 +10,11 @@ export default {
       type: 'boolean',
     },
     variant: {
-      control: 'select',
+      control: 'inline-radio',
       options: ['primary', 'secondary', 'outline', 'ghost'],
     },
     size: {
-      control: 'select',
+      control: 'inline-radio',
       options: ['sm', 'md'],
     },
     onClick: {
