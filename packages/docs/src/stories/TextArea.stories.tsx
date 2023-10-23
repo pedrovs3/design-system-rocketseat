@@ -1,13 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { TextInput, TextInputProps } from '@pedrovs3/react'
-import { Box, Text } from '@pedrovs3/react/src'
+import { Box, Text, TextArea, TextAreaProps } from '@pedrovs3/react'
 
 export default {
   title: 'Form/Text Area',
-  component: TextInput,
+  component: TextArea,
   args: {},
   decorators: [
-    (Story: StoryObj<typeof TextInput>) => (
+    (Story: StoryObj<typeof TextArea>) => (
       <Box
         as={'label'}
         css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
@@ -17,15 +16,15 @@ export default {
       </Box>
     ),
   ],
-} as Meta<TextInputProps>
+} as Meta<TextAreaProps>
 
-export const Primary: StoryObj<TextInputProps> = {
+export const Primary: StoryObj<TextAreaProps> = {
   args: {
     placeholder: 'Digite algumas coisas...',
   },
 }
 
-export const Disabled: StoryObj<TextInputProps> = {
+export const Disabled: StoryObj<TextAreaProps> = {
   args: {
     disabled: true,
     placeholder: 'Digite algumas coisas...',

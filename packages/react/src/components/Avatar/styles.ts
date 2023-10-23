@@ -55,4 +55,3 @@ export const AvatarFallback = styled(Avatar.Fallback, {
 })
 
 export type AvatarProps = React.ComponentProps<typeof AvatarContainer>
-AvatarContainer.displayName = 'AvatarContainer'
