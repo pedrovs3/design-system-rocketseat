@@ -28,8 +28,11 @@ const config = {
   docs: {
     autodocs: true,
   },
-  viteFinal: (config, {configType}) => {
-    if (configType === 'PRODUCTION') {
+  core: {
+    builder: "@storybook/builder-vite"
+  },
+  async viteFinal(config, options) {
+    if (options.configType === 'PRODUCTION') {
       config.base = '/design-system-rocketseat/'
     }
   }
