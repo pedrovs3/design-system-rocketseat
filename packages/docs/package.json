@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "deploy-storybook": "pnpm storybook:build && touch ./storybook-static/.nojekyll && gh-pages -d ./storybook-static -t true",
-    "storybook:build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages --out-dir=storybook-static",
+    "build-storybook": "storybook build",
     "build": "storybook build"
   },
   "keywords": [],
@@ -28,6 +28,7 @@
     "@storybook/testing-library": "0.2.2",
     "@vitejs/plugin-react": "^4.1.0",
     "babel-loader": "^8.2.5",
+    "gh-pages": "^6.0.0",
     "prop-types": "15.8.1",
     "storybook": "7.4.6",
     "vite": "^4.4.11"
