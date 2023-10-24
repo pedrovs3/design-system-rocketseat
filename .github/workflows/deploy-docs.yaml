@@ -33,13 +33,8 @@ jobs:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
-          if: success()
-          uses: crazy-max/ghaction-github-pages@v3
-          with:
-            target_branch: gh-pages
-            build_dir: storybook-static
-            commit_message: 'chore(deploy): Storybook'
-            keep_history: false
-            jekyll: false
-          env:
-            GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./packages/docs/storybook-static
