@@ -14,6 +14,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.19.3",
     "@storybook/addon-docs": "^7.5.0",
     "@storybook/addon-essentials": "7.4.6",
     "@storybook/addon-interactions": "7.4.6",
@@ -25,6 +26,8 @@
     "@storybook/react-vite": "7.4.6",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "0.2.2",
+    "@vitejs/plugin-react": "^2.1.0",
+    "babel-loader": "^8.2.5",
     "prop-types": "15.8.1",
     "storybook": "7.4.6",
     "vite": "^4.4.11"
@@ -33,12 +36,14 @@
     "@pedrovs3/eslint-config": "*",
     "@pedrovs3/react": "*",
     "@pedrovs3/tokens": "*",
+    "@pedrovs3/ts-config": "*",
     "@storybook/addon-a11y": "^7.5.1",
     "@storybook/theming": "^7.4.6",
     "@vitejs/plugin-react": "^4.1.0",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remark-gfm": "^4.0.0"
   }
 }
