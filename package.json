@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "turbo:dev": "turbo run dev --parallel",
-    "turbo:build": "turbo run build"
+    "turbo:build": "turbo run build --parallel"
   },
   "devDependencies": {
     "turbo": "^1.10.15"

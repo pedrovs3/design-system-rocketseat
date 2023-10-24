@@ -1,21 +1,19 @@
 
 > @pedrovs3/react@1.0.0 build C:\Users\pedro.silva\WebstormProjects\design-system\packages\react
-> tsup src/index.tsx --format esm,cjs --dts --minify --clean --sourcemap --legacy-output dist/index.js --external react
+> tsup src/index.tsx --format esm,cjs --dts --minify --clean  --external react
 
 [34mCLI[39m Building entry: src/index.tsx
 [34mCLI[39m Using tsconfig: tsconfig.json
 [34mCLI[39m tsup v7.2.0
-[34mCLI[39m Target: es2022
+[34mCLI[39m Target: es6
 [34mCLI[39m Cleaning output folder
 [34mESM[39m Build start
 [34mCJS[39m Build start
-[32mCJS[39m [1mdist\index.js     [22m[32m2.10 KB[39m
-[32mCJS[39m [1mdist\index.js.map [22m[32m4.75 KB[39m
-[32mCJS[39m ⚡️ Build success in 82ms
-[32mESM[39m [1mdist\esm\index.js     [22m[32m1.71 KB[39m
-[32mESM[39m [1mdist\esm\index.js.map [22m[32m4.75 KB[39m
-[32mESM[39m ⚡️ Build success in 83ms
+[32mESM[39m [1mdist\index.mjs [22m[32m7.56 KB[39m
+[32mESM[39m ⚡️ Build success in 133ms
+[32mCJS[39m [1mdist\index.js [22m[32m8.16 KB[39m
+[32mCJS[39m ⚡️ Build success in 134ms
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 2359ms
-[32mDTS[39m [1mdist\index.d.mts [22m[32m5.58 KB[39m
-[32mDTS[39m [1mdist\index.d.ts  [22m[32m5.58 KB[39m
+[32mDTS[39m ⚡️ Build success in 5855ms
+[32mDTS[39m [1mdist\index.d.mts [22m[32m38.52 KB[39m
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m38.52 KB[39m
