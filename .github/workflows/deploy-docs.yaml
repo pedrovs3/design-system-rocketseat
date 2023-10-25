@@ -26,10 +26,6 @@ jobs:
 
       - run: pnpm run turbo:build
 
-      - name: Build React Components
-        working-directory: ./packages/react
-        run: pnpm run build
-
       - name: Deploy StoryBook
         working-directory: ./packages/docs
         run: pnpm run deploy-storybook -- --ci --existing-output-dir=../../docs/storybook-static
