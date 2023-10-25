@@ -1,4 +1,4 @@
-import {dirname, join} from "path";
+import { join, dirname } from "path";
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -10,16 +10,12 @@ function getAbsolutePath(value) {
 
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: [
-    "../src/pages/**/*.mdx",
-    "../src/stories/**/*.stories.tsx",
-  ],
+  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)", "../src/pages/**/*.mdx"],
   addons: [
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-onboarding"),
     getAbsolutePath("@storybook/addon-interactions"),
-    getAbsolutePath("@storybook/addon-a11y")
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
@@ -29,5 +25,4 @@ const config = {
     autodocs: true,
   },
 };
-
 export default config;
