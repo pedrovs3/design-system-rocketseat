@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "storybook dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
     "dev": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -23,6 +21,7 @@
     "@storybook/react-vite": "^7.4.0",
     "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.0",
+    "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
