@@ -34,8 +34,8 @@ const config = {
   core: {
     builder: "@storybook/builder-vite"
   },
-  "features": {
-    "storyStoreV7": true
+  features: {
+    storyStoreV7: true
   },
   viteFinal: (config, {configType}) => {
     if (configType === 'PRODUCTION') {

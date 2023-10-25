@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "deploy-storybook": "storybook-to-ghpages --out-dir=storybook-static",
+    "deploy-storybook": "storybook-to-ghpages --out-dir=./storybook-static",
     "build-storybook": "storybook build",
     "build": "storybook build"
   },
