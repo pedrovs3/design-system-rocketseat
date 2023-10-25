@@ -6,7 +6,8 @@
   "scripts": {
     "deploy-storybook": "storybook-to-ghpages",
     "dev": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
