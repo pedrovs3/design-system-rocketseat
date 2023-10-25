@@ -8,6 +8,7 @@
       "cache": true
     },
     "build": {
+      "cache": true,
       "outputs": [
         "dist/**",
         "storybook-static/**"
