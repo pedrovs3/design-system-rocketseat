@@ -15,12 +15,12 @@ jobs:
         name: Setup pnpm
         with:
           version: 8
-          cache: 'pnpm'
 
       - name: Setup NodeJs
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: pnpm
 
       - run: pnpm i --frozen-lockfile
 
