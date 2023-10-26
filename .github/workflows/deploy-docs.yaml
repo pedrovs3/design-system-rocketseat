@@ -33,4 +33,5 @@ jobs:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
 
       - name: Bypassing GitHub Pages Jekyll build
+        working-directory: ./packages/docs
         run: touch storybook-static/.nojekyll
