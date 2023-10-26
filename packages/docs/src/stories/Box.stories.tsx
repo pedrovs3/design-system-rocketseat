@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@pedrovs3/react'
+import { Box, BoxProps, Text } from '@pedrovs3-ui/react'
 
 export default {
   title: 'Surfaces/Box',

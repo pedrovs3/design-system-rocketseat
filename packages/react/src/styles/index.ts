@@ -1,6 +1,6 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
-import * as Theme from '@pedrovs3/tokens'
+import * as Theme from '@pedrovs3-ui/tokens'
 
 export const {
   styled,

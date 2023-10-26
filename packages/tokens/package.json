@@ -1,5 +1,5 @@
 {
-  "name": "@pedrovs3/tokens",
+  "name": "@pedrovs3-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@pedrovs3/ts-config": "*",
-    "@pedrovs3/eslint-config": "*",
+    "@pedrovs3-ui/ts-config": "*",
+    "@pedrovs3-ui/eslint-config": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }

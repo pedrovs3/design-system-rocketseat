@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { MultiStep, MultiStepProps } from '@pedrovs3/react'
+import { MultiStep, MultiStepProps } from '@pedrovs3-ui/react'
 import { Box } from '@pedrovs3/react/src'
 
 export default {

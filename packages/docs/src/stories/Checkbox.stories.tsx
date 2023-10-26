@@ -1,6 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { CheckBox, CheckboxInputProps } from '@pedrovs3/react'
-import { Box, Text } from '@pedrovs3/react/src'
+import { CheckBox, CheckboxInputProps, Box, Text } from '@pedrovs3-ui/react'
 
 export default {
   title: 'Form/CheckBox',

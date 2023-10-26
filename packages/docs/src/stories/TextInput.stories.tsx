@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { TextInput, TextInputProps } from '@pedrovs3/react'
-import { Box, Text } from '@pedrovs3/react/src'
+import { TextInput, TextInputProps, Box, Text } from '@pedrovs3-ui/react'
+import {  } from '@pedrovs3/react/src'
 
 export default {
   title: 'Form/Text Input',

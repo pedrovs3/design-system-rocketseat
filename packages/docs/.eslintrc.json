@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@pedrovs3/eslint-config"
+    "@pedrovs3-ui/eslint-config"
   ]
 }

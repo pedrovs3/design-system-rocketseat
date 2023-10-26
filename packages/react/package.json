@@ -1,5 +1,5 @@
 {
-  "name": "@pedrovs3/react",
+  "name": "@pedrovs3-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@pedrovs3/eslint-config": "*",
-    "@pedrovs3/tokens": "*",
-    "@pedrovs3/ts-config": "*",
+    "@pedrovs3-ui/eslint-config": "*",
+    "@pedrovs3-ui/tokens": "*",
+    "@pedrovs3-ui/ts-config": "*",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
     "react": "^18.2.0",
