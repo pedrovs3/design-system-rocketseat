@@ -1,9 +1,11 @@
 name: Bypass jekyll build
 
 on:
-  push:
-    branches:
-      - gh-pages
+  workflow_run:
+    workflows:
+      - Deploy docs
+    types:
+      - completed
 jobs:
     build:
       runs-on: ubuntu-latest
@@ -21,4 +23,6 @@ jobs:
           run: |
             git config --global user.name 'GitHub Action'
             git config --global user.email '
-
+            git add .
+            git commit -m "Bypassing GitHub Pages Jekyll build"
+            git push
