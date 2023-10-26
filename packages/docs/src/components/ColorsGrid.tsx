@@ -1,4 +1,4 @@
-import { colors } from '@pedrovs3/tokens'
+import { colors } from '@pedrovs3-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
