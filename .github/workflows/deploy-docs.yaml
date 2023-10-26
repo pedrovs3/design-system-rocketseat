@@ -34,4 +34,4 @@ jobs:
 
       - name: Bypassing GitHub Pages Jekyll build
         working-directory: ./packages/docs
-        run: touch storybook-static/.nojekyll
+        run: touch ./storybook-static/.nojekyll
