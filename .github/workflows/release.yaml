@@ -29,9 +29,6 @@ jobs:
 
       - run: pnpm i --frozen-lockfile
 
-      - run: pnpm run turbo:build
-
-
       - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
