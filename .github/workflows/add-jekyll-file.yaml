@@ -20,9 +20,9 @@ jobs:
           run: touch .nojekyll
 
         - name: Commit changes
-          run: |
-            git config --global user.name 'GitHub Action'
-            git config --global user.email '
+          run:
+            git config user.name "GH Pages Bot"
+            git config user.email "hello@ghbot.com"
             git add .
             git commit -m "Bypassing GitHub Pages Jekyll build"
-            git push
+            git push --force
