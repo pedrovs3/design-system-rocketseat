@@ -7,7 +7,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "dev": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "storybook build"
+    "build": "storybook build -- -o .storybook-static"
   },
   "keywords": [],
   "author": "",
