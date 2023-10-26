@@ -7,7 +7,7 @@ export const TextInputContainer = styled('div', {
   boxSizing: 'border-box',
   border: '2px solid $gray800',
   display: 'flex',
-  alignItems: 'baseline',
+  alignItems: 'center',
   transition: 'all 0.2s ease-in-out',
   cursor: 'text',
 
@@ -19,6 +19,21 @@ export const TextInputContainer = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  variants: {
+    size: {
+      sm: {
+        padding: '$2 $3'
+      },
+      md: {
+        padding: '$3 $4'
+      },
+    },
+  },
+
+  defaultVariants: {
+    size: 'md'
+  }
 })
 
 export const Prefix = styled('span', {
