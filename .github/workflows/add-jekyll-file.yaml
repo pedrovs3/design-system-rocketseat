@@ -11,7 +11,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
-          uses: actions/checkout@v2
+          uses: actions/checkout@v3
           with:
             ref: gh-pages
             fetch-depth: 0
@@ -21,8 +21,9 @@ jobs:
 
         - name: Commit changes
           run:
-            git config user.name "GH Pages Bot"
-            git config user.email "hello@ghbot.com"
+            git config --global user.name "GH Pages Bot"
+            git config --global user.email "hello@ghbot.com"
+            git config commit.gpgsign false
             git add .
             git commit -m "Bypassing GitHub Pages Jekyll build"
             git push --force
