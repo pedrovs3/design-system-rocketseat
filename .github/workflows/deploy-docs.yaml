@@ -28,6 +28,9 @@ jobs:
 
       - name: Deploy StoryBook
         working-directory: ./packages/docs
-        run: pnpm run deploy-storybook -- --ci --existing-output-dir=storybook-static && touch storybook-static/.nojekyll
+        run: pnpm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
+      - name: Bypassing GitHub Pages Jekyll build
+        run: touch storybook-static/.nojekyll
