@@ -1,7 +1,7 @@
 # @pedrovs3-ui
 ## Status
 ### Documentation
-[![documentation-deploy](https://github.com/pedrovs3/design-system-rocketseat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://pedrovs3.github.io/design-system-rocketseat/?path=/docs/home--docs)
+[![documentation-deploy](https://github.com/pedrovs3/design-system-rocketseat/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://pedrovs3.github.io/pedrovs3-ui/?path=/docs/home--docs)
 
 ### NPM
 [![npm](https://img.shields.io/npm/v/@pedrovs3-ui/react)](https://www.npmjs.com/package/@pedrovs3-ui/react)
